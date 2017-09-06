@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+        }
+
+        .body {
+            width: 1000px;
+            height: 40px;
+            background-color: pink;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        ul {
+            list-style: none;
+        }
+
+        .item {
+            width: 1000px;
+            height: 40px;
+        }
+
+        .item > li {
+            float: left;
+            width: 100px;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            color: white;
+        }
+
+        .item li:hover {
+            background-color: palevioletred;
+        }
+
+        .item-ul {
+            background-color: pink;
+            display: none;
+        }
+
+        .item > li:hover > ul {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+<div class="body">
+    <ul class="item">
+        <li>首页
+            <ul class="item-ul">
+                <li>个人中心</li>
+                <li>购物车</li>
+            </ul>
+        </li>
+        <li>菜单</li>
+        <li>卖家中心</li>
+    </ul>
+</div>
+</body>
+</html>

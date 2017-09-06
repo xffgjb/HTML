@@ -1,0 +1,1272 @@
+
+* {
+    margin: 0;
+    padding: 0
+}
+
+.topone {
+    width: 1920px;
+    height: 4700px
+}
+/*.box {*/
+    /*background-color: #fafafa;*/
+    /*border: 1px solid #a19ba9;*/
+/*}*/
+
+.title {
+    width: 1240px;
+    margin-right: auto;
+    margin-left: auto;
+    line-height: 40px;
+    box-sizing: border-box;
+}
+
+.title:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.titlewz {
+    width: 650px;
+    height: 40px;
+    float: left;
+}
+
+.titlewz > a:not(:first-child):before {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 0;
+    left: -15px;
+    width: 1px;
+    height: 100%;
+    background-color: black;
+
+}
+
+.titlewz > a, .titleright > a {
+    line-height: 40px;
+    font-size: 13px;
+    color: #a19ba9;
+    position: relative;
+}
+
+.titlewz > a {
+    margin-right: 30px;
+}
+
+/*.titlefx {*/
+    /*width: 600px;*/
+    /*height: 40px;*/
+    /*position: absolute;*/
+    /*top: 10px;*/
+    /*left: 385px*/
+/*}*/
+
+.titleright > span {
+    display: inline-block;
+    height: 13px;
+    border: 1px solid #a19ba9;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.titleright {
+    float: right;
+}
+.topfirst {
+    height: 40px;
+    background-color: #fafafa;
+    border-bottom: 1px solid #dfdfdf
+}
+
+a {
+    text-decoration: none;
+    color: #8c8c8c;
+    font-size: 13px
+}
+
+span {
+    border: 1px solid #8c8c8c;
+    height: 13px
+}
+
+.topsecond {
+    margin-left: 340px;
+    position: relative;
+    height: 41px;
+    width: 1240px;
+}
+
+.topwenzhi {
+    position: absolute;
+    top: 8px
+}
+
+.topwenzhituo {
+    position: absolute;
+    top: 8px;
+    right: 340px
+}
+
+.topthird {
+    position: absolute;
+    width: 1240px;
+    height: 70px;
+    top: 66px;
+}
+
+.topright {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+.thirdanniu {
+    width: 125px;
+    height: 45px;
+    border: none;
+    background-color: #ffdb3d;
+    bottom: 0;
+    position:absolute;
+    right: 0;
+}
+
+.thirdwenzhi {
+    border: none;
+    font-size: 18px
+}
+
+.topimg {
+    position: absolute;
+    bottom: 0;
+    right: 140px;
+    width: 420px;
+    height: 43px;
+}
+
+.topimgtuo {
+    width: 40px;
+    height: 43px;
+    background-color: white;
+    border: 1px solid #dfdfdf;
+    right: 0;;
+    position: absolute;
+    bottom: 0;
+}
+
+.topimgone {
+    width: 379px;
+    height: 41px;
+    border: 1px solid #dfdfdf;
+}
+
+.bodyone {
+    width: 1240px;
+    height: 630px;
+    position: absolute;
+    top: 165px
+}
+
+.bodyonexiaone {
+    width: 250px;
+    height: 40px;
+    background-color: #ff4a00;
+    display: block;
+    font-size: 20px;
+    color: white
+}
+
+.bodyleft, .bodyleftsecond, .bodyleftthird, .bodyleftfourth, .bodyleftfifth, .bodyleftsixth, .bodyleftseventh, .bodyleftosmiyat {
+    width: 250px;
+    height: 73.75px;
+}
+
+.bodyonexia > div {
+    width: 248px;
+    height: 71.75px;
+    border: 1px solid #dfdfdf
+}
+
+.diyige {
+    margin-left: 20px;
+    color: #fe763e
+}
+
+.bodylefttuohe {
+    margin-left: 20px;
+    margin-top: 15px
+}
+
+.bodytuo {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.bodytuoright {
+    height: 40px;
+    background-color: #404144;
+}
+
+.bodytuoright > a {
+    margin-left: 40px;
+    font-size: 18px;
+    color: white;
+    line-height: 35px;
+}
+
+.bodybodytuorightzhongjian {
+    top: 460px;
+    position: absolute;
+}
+
+.bodybodytuorightzhongjian > img {
+    width: 328.5px;
+    height: 168px;
+    float: left;
+    border: 1px solid #dfdfdf;
+}
+
+.bodydisan {
+    margin-top: 25px
+}
+
+.disantop > span {
+    border: none
+}
+
+.disantoptuo {
+    font-size: 10px
+}
+
+.disantight > button {
+    width: 35px;
+    height: 25px;
+    position: absolute;
+    bottom: -50px;
+    background-color: white;
+    border: 1px solid #dfdfdf;
+}
+
+.disantightsan {
+    right: 0px;
+}
+
+.disantightsange {
+    right: 34px;
+}
+
+.disanbottom {
+    text-align: center;
+}
+
+.disanbottom > div {
+    border: 1px solid #dfdfdf;
+    width: 308px;
+    height: 310px;
+    float: left;
+    margin-top: 25px;
+}
+
+.bodydisi {
+    margin-top: 362px
+}
+
+.bodydisileftdiyi {
+    font-size: 17px
+}
+
+.bodydisileftdier {
+    font-size: 13px;
+    position: absolute;
+    right: 0px;
+    top: 2px
+}
+
+.bodydisileftbottom {
+    border: 1px solid #dfdfdf;
+    width: 620px;
+    margin-top: 25px
+}
+
+.bodydisileftbottomdiyi {
+    position: absolute;
+    left: 622px;
+    top: 47px;
+    height: 314px;
+    width: 307px;
+    border: 1px solid #dfdfdf;
+}
+
+.leftbottomdiyione {
+    position: absolute;
+    left: 20px;
+    top: 15px
+}
+
+.leftbottomdiyithree {
+    position: absolute;
+    left: 20px;
+    top: 40px
+}
+
+.leftbottomdiyituo {
+    position: absolute;
+    left: 40px;
+    top: 80px
+}
+
+.bodydisileftbottomdier, .bodydisileftbottomdisan {
+    width: 310px;
+    height: 155px;
+    border: 1px solid #dfdfdf;
+}
+
+.bodydisi {
+    position: relative;
+}
+
+.bodydisileftbottomdier {
+    position: relative
+}
+
+.leftbottomdierone, .leftbottomdiertuo {
+    margin-left: 25px;
+    margin-top: 25px
+}
+
+.bodydisileftbottomdier > img {
+    position: absolute;
+    left: 200px;
+    bottom: 25px
+}
+
+.bodydisileftbottomdisan {
+    position: relative
+}
+
+.bodydisileftbottomdisan > img {
+    width: 115px;
+    height: 115px;
+    position: absolute;
+    right: 25px;
+    bottom: 20px
+}
+
+.bodydisileftbottomdisan > p {
+    margin-top: 25px;
+    margin-left: 25px
+}
+
+.leftbottomdisantuo, .leftbottomdiertuo {
+    position: absolute;
+    top: 23px
+}
+
+.bodydisileftbottomdiwu {
+    width: 308px;
+    height: 312px;
+    border: 1px solid #dfdfdf;
+    position: absolute;
+    left: 312px;
+    top: 363px;
+    text-align: center;
+}
+
+.leftbottomdiwuone {
+    margin-left: -100px;
+    margin-top: 25px
+}
+
+.leftbottomdiwutuo {
+    margin-left: -215px
+}
+
+.bodydisileftbottomdiliu {
+    width: 309px;
+    height: 312px;
+    border: 1px solid #dfdfdf;
+    position: absolute;
+    left: 620px;
+    top: 363px;
+    text-align: center
+}
+
+.leftbottomdiliuone {
+    margin-left: -137px;
+    margin-top: 25px
+}
+
+.leftbottomdiliutuo {
+    margin-left: -215px
+}
+
+.bodydisileftbottomdiqi, .wuonedisione {
+    width: 310px;
+    height: 312px;
+    border: 1px solid #dfdfdf;
+    position: absolute;
+    left: 0px
+}
+
+.bodydisileftbottomdiqi {
+    top: 677px;
+    text-align: center
+}
+
+.bodydisileftbottomdiba, .wuonediwutuo {
+    width: 307px;
+    height: 312px;
+    border: 1px solid #dfdfdf;
+    position: absolute;
+    left: 312px;
+}
+
+.bodydisileftbottomdiba {
+    top: 677px;
+    text-align: center
+}
+
+.bodydisileftbottomdijiu, .wuonediwuthree {
+    height: 312px;
+    border: 1px solid #dfdfdf;
+    position: absolute;
+    left: 621px;
+}
+
+.bodydisileftbottomdijiu {
+    top: 677px;
+    width: 307px;
+    text-align: center
+}
+
+.bodyrightbox {
+    width: 308px;
+    height: 942px;
+    background-color: #fafafa;
+    margin-top: -630px;
+    margin-left: 930px;
+    border: 1px solid #dfdfdf;
+}
+
+.boxdiyionediyi {
+    margin-left: 25px;
+    background-color: #f32f39;
+    width: 64px;
+    color: white;
+    font-size: 13px
+}
+
+.boxdiyionedier {
+    margin-left: 25px;
+    font-size: 13px;
+    margin-top: 25px
+}
+
+.boxdiyione {
+    border: 1px solid #dfdfdf;
+    height: 130px;
+    position: relative
+}
+
+.boxdiyionedisanyi {
+    color: #f32f39;
+    border: none;
+    position: absolute;
+    left: 25px;
+    top: 65px;
+    font-size: 13px
+}
+
+.boxdiyionedisan {
+    border: none;
+    position: absolute;
+    left: 55px;
+    font-size: 13px;
+    top: 65px
+}
+
+.boxdiyionedisi {
+    position: absolute;
+    left: 25px;
+    top: 90px;
+    font-size: 13px
+}
+
+.boxdiyione > img {
+    position: absolute;
+    right: 20px;
+    bottom: 10px
+}
+
+.boxdiyituo {
+    border: 1px solid #dfdfdf;
+    height: 130px;
+    position: relative
+}
+
+.boxdiyituo > p {
+    margin-top: 25px;
+    margin-left: 25px;
+    font-size: 20px;
+}
+
+.boxdiyituo > span {
+    border: none;
+    display: block;
+    margin-left: 25px;
+    margin-top: 10px;
+    font-size: 13px
+}
+
+.boxdiyituo > img {
+    display: block;
+    margin-left: 186px;
+    margin-top: -86px
+}
+
+.boxdiyichree {
+    border: 1px solid #dfdfdf;
+    height: 130px;
+    position: relative
+}
+
+.boxdiyichreediyi {
+    margin-top: 20px;
+    margin-left: 25px;
+    font-size: 20px
+}
+
+.boxdiyichreedier {
+    margin-left: 25px;
+    margin-top: 10px;
+    font-size: 13px;
+}
+
+.boxdiyichree > img {
+    display: block;
+    margin-left: 186px;
+    margin-top: -86px
+}
+
+.bodyrightboxdier {
+    margin-top: 25px;
+    position: relative
+}
+
+.bodyrightboxdier > p {
+    margin-left: 25px
+}
+
+.cf1 {
+    position: absolute;
+    right: 20px;
+    top: -1px
+}
+
+.cf2 {
+    position: absolute;
+    right: 20px;
+    top: 55px
+}
+
+.cf3 {
+    position: absolute;
+    right: 20px;
+    top: 100px
+}
+
+.cf4 {
+    position: absolute;
+    right: 20px;
+    top: 146px
+}
+
+.cf5 {
+    position: absolute;
+    right: 20px;
+    top: 192px
+}
+
+.boxdier {
+    margin-top: 15px
+}
+
+.xiantiao {
+    width: 258px;
+    border: 1px solid #dfdfdf;
+    margin-top: 20px
+}
+
+.tuo {
+    color: #ff4a00
+}
+
+.zuixiam {
+    margin-top: 25px;
+    font-size: 20px
+}
+
+.zuixiamsrk, .zuixiamsrk2, .zuixiamanniu {
+    width: 245px;
+    height: 35px;
+    display: block;
+    margin-top: 10px;
+    margin-left: 25px
+}
+
+.zuixiamanniu {
+    background-color: #dcdee4;
+    border: none;
+    color: white
+}
+
+.bodydiwu {
+    margin-top: 25px;
+    position: relative;
+    height: 676px;
+}
+
+.wuonedier {
+    margin-top: 25px;
+    border: 1px solid #dfdfdf;
+    width: 620px
+}
+
+.wuonedisan {
+    position: absolute;
+    left: 620px;
+    top: 46px;
+    height: 314px;
+    width: 310px;
+    border: 1px solid #dfdfdf
+}
+
+.wuonedisanone {
+    position: absolute;
+    top: 25px;
+    left: 25px
+}
+
+.wuonedisantuo {
+    position: absolute;
+    top: 46px;
+    left: 25px
+}
+
+.wuonedisan > img {
+    position: absolute;
+    top: 85px;
+    left: 65px
+}
+
+.wuonedisione, .wuonediwutuo, .wuonediwuthree {
+    top: 362px;
+}
+
+.wuonedisione > img, .wuonediwutuo > img, .wuonediwuthree > img {
+    position: absolute;
+    top: 90px;
+    left: 45px
+}
+
+.wuonedisioneyi, .wuonediwutuoyi, .wuonediwuthreeyi {
+    position: absolute;
+    top: 25px;
+    left: 25px
+}
+
+.wuonedisioneer, .wuonediwutuoer, .wuonediwuthreeer {
+    position: absolute;
+    top: 45px;
+    left: 25px
+}
+
+.wuonediwuthree {
+    width: 309px
+}
+
+.bodydiliu {
+    position: absolute;
+    right: 0;
+    top: 46px;
+    width: 308px;
+    height: 628px;
+    border: 1px solid #dfdfdf
+}
+
+.bodydiliuone {
+    width: 308px;
+    height: 120px;
+    border: 1px solid #dfdfdf;
+    position: relative;
+}
+
+.bodydiliuone > span {
+    border: none;
+}
+
+.bodydiliuonediyi {
+    position: absolute;
+    left: 25px;
+    top: 45px;
+    font-size: 25px;
+    color: #ff4a4f;
+}
+
+.bodydiliuonedier {
+    position: absolute;
+    left: 90px;
+    top: 38px;
+    font-size: 30px;
+    color: black
+}
+
+.bodydiliutuo, .bodydiliuthree, .bodydiliufour, .bodydiliufive, .bodydiliusix {
+    width: 308px;
+    height: 99.5px;
+    border: 1px solid #dfdfdf
+}
+
+.bodydiliutuo, .bodydiliuthree, .bodydiliufour, .bodydiliufive, .bodydiliusix {
+    position: relative
+}
+
+.bodydiliutuocf {
+    position: absolute;
+    left: 25px;
+    font-size: 35px;
+    color: #ff4a4f;
+    top: 25px
+}
+
+.bodydiliu img {
+    position: absolute;
+    right: 30px;
+    top: 20px
+}
+
+.bodydiliutuocftuo {
+    position: absolute;
+    left: 60px;
+    top: 30px;
+}
+
+.bodydiliutuocfthree {
+    position: absolute;
+    left: 60px;
+    top: 50px
+}
+
+.bodydiqi, .bodydiba {
+    margin-top: 25px
+}
+
+.bodydiqi, .bodydiba, .bodydijiu > p {
+    font-size: 18px
+}
+
+.bodydijiuone {
+    position: absolute;
+    right: 0;
+    top: 0
+}
+
+.rpcp {
+    height: 410px
+}
+
+.dkssone, .miuizt {
+    height: 310px
+}
+
+.rpcp, .tjcp, .dkssone, .miuizt {
+    margin-top: 25px;
+    border: 1px solid #dfdfdf;
+    margin-left: auto;
+    margin-right: auto;
+    width: 1240px;
+}
+
+.tjcp {
+    height: 310px
+}
+
+.rpcp > div {
+    width: 309px;
+}
+
+.dks > div {
+    width: 308px
+}
+
+.rpcp > div, .dks > div {
+    height: 410px;
+    float: left;
+    position: relative;
+    border-right: 1px solid #dfdfdf;
+}
+
+.tjcp > div, .miuizt > div {
+    width: 308px;
+    height: 310px;
+    float: left;
+    position: relative;
+    border: 1px solid #dfdfdf
+}
+
+.rpcpdiyione {
+    position: absolute;
+    top: 25px;
+    left: 25px
+}
+
+.rpcpdiyituo {
+    position: absolute;
+    top: 50px;
+    left: 25px
+}
+
+.rpcpdiyithree {
+    position: absolute;
+    top: 50px;
+    left: 100px;
+}
+
+.rpcpdiyifour {
+    position: absolute;
+    top: 100px;
+    left: 40px
+}
+
+.rpcp button {
+    position: absolute;
+    width: 280px;
+    height: 50px;
+    bottom: 10px;
+    left: 15px;
+    background-color: #f3f3f3;
+    border: none
+}
+
+.ticponedi {
+    position: absolute;
+    width: 70px;
+    height: 20px;
+    top: 0;
+    right: 25px;
+    background-color: #f32f39;
+    text-align: center
+}
+
+.ticponedidyi {
+    color: white;
+}
+
+.ticponedider {
+    position: absolute;
+    left: 25px;
+    top: 30px
+}
+
+.ticponedidthree {
+    position: absolute;
+    left: 25px;
+    top: 50px
+}
+
+.ticponedidfoue {
+    position: absolute;
+    left: 60px;
+    top: 50px
+}
+
+.tjcp img {
+    position: absolute;
+    left: 40px;
+    bottom: 10px
+}
+
+.bodydijiu {
+    margin-top: 25px;
+    width: 1240px;
+    height: 410px;
+    position: relative
+}
+
+.dkssonediyi {
+    position: absolute;
+    left: 25px;
+    top: 25px
+}
+
+.dkssonedier {
+    position: absolute;
+    left: 25px;
+    top: 45px
+}
+
+.dkssonedisan {
+    position: absolute;
+    left: 25px;
+    top: 60px
+}
+
+.dkssone > img {
+    position: absolute;
+    left: 40px;
+    bottom: 70px
+}
+
+.dkssone > button {
+    position: absolute;
+    left: 15px;
+    bottom: 20px;
+    width: 280px;
+    height: 50px;
+    border: none;
+    background-color: #f3f3f3
+}
+
+.bodydishi {
+    width: 1240px;
+    height: 310px;
+    margin-top: 75px;
+    position: relative
+}
+
+.bodydishioneb {
+    position: absolute;
+    top: 0;
+    right: 0
+}
+
+.miuiztonediyi {
+    position: absolute;
+    top: 25px;
+    left: 25px
+}
+
+.miuiztonedier {
+    position: absolute;
+    top: 45px;
+    left: 25px
+}
+
+.miuiztone > img {
+    position: absolute;
+    left: 25px;
+    bottom: 20px
+}
+
+.bottom {
+    width: 1920px;
+    height: 600px;
+    position: absolute;
+    background-color: #fafafa;
+    top: 4643px;
+
+
+}
+
+.bottomonediyi {
+    position: absolute;
+    left: 400px;
+    top: 50px;
+    width: 150px;
+    height: 75px
+}
+
+.bottomonediyi > img, .bottomonedier > img, .bottomonedisan > img, .bottomonedisi > img, .bottomonediwu > img {
+    position: absolute;
+    top: 0px;
+    left: 20px
+}
+
+.bottomonediyi > a, .bottomonedier > a, .bottomonedisan > a, .bottomonedisi > a, .bottomonediwu > a {
+    position: absolute;
+    top: 50px
+}
+
+.bottomonedier {
+    position: absolute;
+    left: 625px;
+    top: 50px;
+    width: 150px;
+    height: 75px
+}
+
+.bottomonedisan {
+    position: absolute;
+    left: 900px;
+    top: 50px;
+    width: 150px;
+    height: 75px
+}
+
+.bottomonedisi {
+    position: absolute;
+    left: 1175px;
+    top: 50px;
+    width: 150px;
+    height: 75px
+}
+
+.bottomonediwu {
+    position: absolute;
+    left: 1450px;
+    top: 50px;
+    width: 150px;
+    height: 75px
+}
+
+.bottomzjx {
+    margin-left: 360px;
+    width: 1240px;
+    border: 1px solid #dfdfdf;
+    position: absolute;
+    top: 200px
+}
+
+.bottomzjx2 {
+    margin-left: 360px;
+    width: 1240px;
+    border: 1px solid #dfdfdf;
+    position: absolute;
+    top: 450px;
+}
+
+.bottomfuwu {
+    position: absolute;
+    margin-top: 260px;
+    margin-left: 360px;
+    width: 1240px;
+    height: 115px
+}
+
+.fuwu1, .fuwu5, .fuwu9, .fuwu13, .fuwu17 {
+    position: absolute;
+    font-size: 17px;
+    color: black
+}
+
+.fuwu2, .fuwu6, .fuwu10, .fuwu14, .fuwu18 {
+    position: absolute;
+    top: 40px
+}
+
+.fuwu3, .fuwu7, .fuwu11, .fuwu15, .fuwu19 {
+    position: absolute;
+    top: 70px
+}
+
+.fuwu4, .fuwu8, .fuwu12, .fuwu16, .fuwu20 {
+    position: absolute;
+    top: 100px
+}
+
+.fuwu45, .fuwu89, .fuwu1213, .fuwu1617, .fuwu2021 {
+    position: absolute;
+    height: 140px;
+    border: 1px solid #dfdfdf
+}
+
+.fuwu45 {
+    left: 200px;
+}
+
+.fuwu89 {
+    left: 400px
+}
+
+.fuwu1213 {
+    left: 600px
+}
+
+.fuwu1617 {
+    left: 800px
+}
+
+.fuwu2021 {
+    left: 1000px
+}
+
+.fuwu5, .fuwu6, .fuwu7, .fuwu8 {
+    left: 240px;
+}
+
+.fuwu9, .fuwu10, .fuwu11, .fuwu12 {
+    left: 440px;
+}
+
+.fuwu13, .fuwu14, .fuwu15, .fuwu16 {
+    left: 640px
+}
+
+.fuwu17, .fuwu18, .fuwu19, .fuwu20 {
+    left: 840px
+}
+
+.fuwu21 {
+    position: absolute;
+    right: 30px;
+    top: 0;
+    font-size: 25px
+}
+
+.fuwu22 {
+    position: absolute;
+    right: 45px;
+    top: 40px;
+    font-size: 13px
+}
+
+.fuwu23 {
+    position: absolute;
+    right: 60px;
+    top: 60px;
+    font-size: 13px
+}
+
+.fuwu24 {
+    position: absolute;
+    right: 40px;
+    top: 100px;
+    width: 118px;
+    height: 33px;
+    border: none;
+    background-color: #ff4a00
+}
+
+.fuwu25 {
+    color: white
+}
+
+.wzbottom {
+    position: absolute;
+    left: 500px;
+    top: 480px;
+    width: 1200px;
+    height: 100px
+}
+
+.wz1, .wz25, .wz2, .wz3, .wz4, .wz5, .wz6, .wz7, .wz8, .wz9, .wz10, .wz11, .wz12, .wz13, .wz14, .wz15, .wz16, .wz17, .wz18, .wz19, .wz20, .wz21 {
+    position: absolute;
+    top: 0;
+}
+
+.wz1 {
+    left: 0
+}
+
+.wz25 {
+    left: 140px
+}
+
+.wz2 {
+    left: 155px
+}
+
+.wz3 {
+    left: 200px
+}
+
+.wz4 {
+    left: 215px
+}
+
+.wz5 {
+    left: 260px
+}
+
+.wz6 {
+    left: 285px
+}
+
+.wz7 {
+    left: 350px
+}
+
+.wz8 {
+    left: 375px
+}
+
+.wz9 {
+    left: 450px
+}
+
+.wz10 {
+    left: 465px
+}
+
+.wz11 {
+    left: 530px
+}
+
+.wz12 {
+    left: 550px
+}
+
+.wz13 {
+    left: 620px
+}
+
+.wz14 {
+    left: 650px
+}
+
+.wz15 {
+    left: 750px
+}
+
+.wz16 {
+    left: 725px
+}
+
+.wz17 {
+    left: 825px
+}
+
+.wz18 {
+    left: 815px
+}
+
+.wz19 {
+    left: 900px
+}
+
+.wz20 {
+    left: 950px
+}
+
+.wz21 {
+    left: 1000px
+}
+
+.wz22 {
+    position: absolute;
+    top: 35px;
+    left: 130px
+}
+
+.wz23 {
+    position: absolute;
+    top: 90px;
+    left: 400px
+}
+
+.wz24 {
+    position: absolute;
+    top: 75px;
+    left: 585px;
+    width: 200px;
+    height: 35px
+}
+
+.wz25, .wz3, .wz5, .wz7, .wz9, .wz11, .wz13, .wz100, .wz16, .wz18, .wz20 {
+    border: 1px solid #dfdfdf;
+    height: 10px
+}
+
+

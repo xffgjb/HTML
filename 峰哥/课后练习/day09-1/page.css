@@ -1,0 +1,492 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+.toal {
+    width: 1920px;
+    height: 4700px
+}
+
+.topone {
+    width: 1240px;
+    margin-right: auto;
+    margin-left: auto;
+    line-height: 40px;
+    box-sizing: border-box;
+}
+
+.topone:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.topwz {
+    width: 650px;
+    height: 40px;
+    float: left;
+}
+
+.topwz > a:not(:first-child):before {
+    content: "";
+    position: absolute;
+    display: block;
+    top: 0;
+    left: -15px;
+    width: 1px;
+    height: 100%;
+    background-color: black;
+}
+
+.topwz > a, .topright > a {
+    line-height: 40px;
+    font-size: 13px;
+    color: #a19ba9;
+    position: relative;
+}
+
+.topwz > a {
+    margin-right: 30px
+}
+
+.topright > span {
+    display: inline-block;
+    height: 13px;
+    border: 1px solid #a19ba9;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.topright {
+    float: right
+}
+
+.top {
+    height: 40px;
+    background-color: #fafafa;
+    border-bottom: 1px solid #dfdfdf
+}
+
+a {
+    text-decoration: none;
+    color: #8c8c8c;
+    font-size: 13px
+}
+
+span {
+    border: 1px solid #8c8c8c;
+    height: 13px
+}
+
+.body {
+    margin-right: auto;
+    margin-left: auto;
+    width: 1240px;
+    margin-top: 25px;
+    position: relative;
+}
+
+.bodyoneright {
+    position: absolute;
+    top: 0;
+    right: 0
+}
+
+.bodyoneanniu {
+    position: absolute;
+    right: 0;
+    width: 125px;
+    height: 45px;
+    background-color: #ffdb3d;
+    border: none;
+    top: 25px
+}
+
+.bodyoneimg {
+    position: absolute;
+    right: 50px;
+    top: 25px
+}
+
+.bodyoneimg > input {
+    width: 370px;
+    height: 43px;
+    position: absolute;
+    right: 129px;
+    top: 0;
+    border: 1px solid black
+}
+
+.bodyoneimg > button {
+    width: 45px;
+    height: 45px;
+    position: absolute;
+    right: 85px;
+    border: 1px solid black;
+    background-color: white;
+    top: 0
+}
+
+.bodytuodiyi {
+    float: left;
+    width: 250px;
+    line-height: 50px;
+    background-color: #ff4a00;
+}
+
+.bodytuo a {
+    font-size: 20px;
+    color: white;
+    display: inline-block;
+    margin-left: 35px
+}
+
+.bodytuo {
+    margin-top: 25px;
+    overflow: hidden
+}
+
+.bodytuodier {
+    float: right;
+    line-height: 50px;
+    width: 990px;
+    background-color: black
+}
+
+.bodythree {
+    margin-top: 10px;
+    clear: both;
+    border-bottom: 1px solid #dfdfdf;
+    height: 88px
+}
+
+.bodythreediyi {
+    display: inline-block;
+    margin-top: 25px;
+    font-size: 20px;
+    color: black
+}
+.bodyfoue,.bodyfive{overflow: hidden;margin-top: 50px}
+
+.bodyfouediyi, .bodyfouedier, .bodyfouedisan, .bodyfouedisi,.bodyfivediyi,.bodyfivedier,.bodyfivedisan,.bodyfivedisi {
+    float: left;
+    width: 20%;
+    text-align: center;
+    border-right: 1px solid #dfdfdf;
+    height: 362px;
+}
+.bodyfoue a,.bodyfive a{margin-top:-10px;display: block}
+.row{font-size: 17px;color: black;}
+.bodyfoue img,.bodyfive img{margin-bottom: 30px}
+
+
+.bodyfouediwu,.bodyfivediwu {
+    width: 19%;
+    float: right;
+    text-align: center;
+    height: 362px;
+}
+.bottom {
+    width: 1920px;
+    height: 600px;
+    position: absolute;
+    background-color: #fafafa;
+    top: 1200px;
+}
+.bottomone{height: 200px;width: 1240px;margin-left: auto;margin-right: auto}
+.bottomonediyi {
+    position: absolute;
+    left: 400px;
+    top: 50px;
+    width: 150px;
+    height: 75px
+}
+
+.bottomonediyi > img, .bottomonedier > img, .bottomonedisan > img, .bottomonedisi > img, .bottomonediwu > img {
+    position: absolute;
+    top: 0px;
+    left: 20px
+}
+
+.bottomonediyi > a, .bottomonedier > a, .bottomonedisan > a, .bottomonedisi > a, .bottomonediwu > a {
+    position: absolute;
+    top: 50px
+}
+
+.bottomonedier {
+    position: absolute;
+    left: 625px;
+    top: 50px;
+    width: 150px;
+    height: 75px
+}
+
+.bottomonedisan {
+    position: absolute;
+    left: 900px;
+    top: 50px;
+    width: 150px;
+    height: 75px
+}
+
+.bottomonedisi {
+    position: absolute;
+    left: 1175px;
+    top: 50px;
+    width: 150px;
+    height: 75px
+}
+
+.bottomonediwu {
+    position: absolute;
+    left: 1450px;
+    top: 50px;
+    width: 150px;
+    height: 75px
+}
+
+.bottomzjx {
+    width: 1240px;
+    border: 1px solid #dfdfdf;
+    position: absolute;
+    top: 200px
+}
+
+.bottomzjx2 {
+    width: 1240px;
+    border: 1px solid #dfdfdf;
+    position: absolute;
+    top: 450px;
+}
+
+.bottomfuwu {
+    position: absolute;
+    margin-top: 260px;
+    width: 1240px;
+    height: 140px
+}
+
+.fuwu1, .fuwu5, .fuwu9, .fuwu13, .fuwu17 {
+    position: absolute;
+    font-size: 17px;
+    color: black
+}
+
+.fuwu2, .fuwu6, .fuwu10, .fuwu14, .fuwu18 {
+    position: absolute;
+    top: 40px
+}
+
+.fuwu3, .fuwu7, .fuwu11, .fuwu15, .fuwu19 {
+    position: absolute;
+    top: 70px
+}
+
+.fuwu4, .fuwu8, .fuwu12, .fuwu16, .fuwu20 {
+    position: absolute;
+    top: 100px
+}
+
+.fuwu45, .fuwu89, .fuwu1213, .fuwu1617, .fuwu2021 {
+    position: absolute;
+    height: 140px;
+    border: 1px solid #dfdfdf
+}
+
+.fuwu45 {
+    left: 200px;
+}
+
+.fuwu89 {
+    left: 400px
+}
+
+.fuwu1213 {
+    left: 600px
+}
+
+.fuwu1617 {
+    left: 800px
+}
+
+.fuwu2021 {
+    left: 1000px
+}
+
+.fuwu5, .fuwu6, .fuwu7, .fuwu8 {
+    left: 240px;
+}
+
+.fuwu9, .fuwu10, .fuwu11, .fuwu12 {
+    left: 440px;
+}
+
+.fuwu13, .fuwu14, .fuwu15, .fuwu16 {
+    left: 640px
+}
+
+.fuwu17, .fuwu18, .fuwu19, .fuwu20 {
+    left: 840px
+}
+
+.fuwu21 {
+    position: absolute;
+    right: 30px;
+    top: 0;
+    font-size: 25px
+}
+
+.fuwu22 {
+    position: absolute;
+    right: 45px;
+    top: 40px;
+    font-size: 13px
+}
+
+.fuwu23 {
+    position: absolute;
+    right: 60px;
+    top: 60px;
+    font-size: 13px
+}
+
+.fuwu24 {
+    position: absolute;
+    right: 40px;
+    top: 100px;
+    width: 118px;
+    height: 33px;
+    border: none;
+    background-color: #ff4a00
+}
+
+.fuwu25 {
+    color: white
+}
+
+.wzbottom {
+    position: absolute;
+    left: 500px;
+    top: 480px;
+    width: 1200px;
+    height: 115px
+}
+
+.wz1, .wz25, .wz2, .wz3, .wz4, .wz5, .wz6, .wz7, .wz8, .wz9, .wz10, .wz11, .wz12, .wz13, .wz14, .wz15, .wz16, .wz17, .wz18, .wz19, .wz20, .wz21 {
+    position: absolute;
+    top: 0;
+}
+
+.wz1 {
+    left: 0
+}
+
+.wz25 {
+    left: 140px
+}
+
+.wz2 {
+    left: 155px
+}
+
+.wz3 {
+    left: 200px
+}
+
+.wz4 {
+    left: 215px
+}
+
+.wz5 {
+    left: 260px
+}
+
+.wz6 {
+    left: 285px
+}
+
+.wz7 {
+    left: 350px
+}
+
+.wz8 {
+    left: 375px
+}
+
+.wz9 {
+    left: 450px
+}
+
+.wz10 {
+    left: 465px
+}
+
+.wz11 {
+    left: 530px
+}
+
+.wz12 {
+    left: 550px
+}
+
+.wz13 {
+    left: 620px
+}
+
+.wz14 {
+    left: 650px
+}
+
+.wz15 {
+    left: 750px
+}
+
+.wz16 {
+    left: 725px
+}
+
+.wz17 {
+    left: 825px
+}
+
+.wz18 {
+    left: 815px
+}
+
+.wz19 {
+    left: 900px
+}
+
+.wz20 {
+    left: 950px
+}
+
+.wz21 {
+    left: 1000px
+}
+
+.wz22 {
+    position: absolute;
+    top: 35px;
+    left: 130px
+}
+
+.wz23 {
+    position: absolute;
+    top: 90px;
+    left: 400px
+}
+
+.wz24 {
+    position: absolute;
+    top: 75px;
+    left: 585px;
+    width: 200px;
+    height: 35px
+}
+
+.wz25, .wz3, .wz5, .wz7, .wz9, .wz11, .wz13, .wz100, .wz16, .wz18, .wz20 {
+    border: 1px solid #dfdfdf;
+    height: 10px
+}

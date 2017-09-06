@@ -1,0 +1,470 @@
+* {
+    margin: 0;
+    padding: 0
+}
+
+.title {
+    width: 1920px;
+    background-color: #19BEBE;
+    text-align: center;
+    height: 80px
+}
+
+.titleimg {
+    position: absolute;
+    top: 20px
+}
+
+.nag {
+    height: 80px;
+    background-color: #efefef
+}
+
+.nagtuo {
+    margin-left: 400px;
+    position: relative
+}
+
+.nagimg {
+    position: absolute;
+    top: 30px
+}
+
+.shenzhen {
+    position: absolute;
+    top: 30px;
+    left: 30px
+}
+
+.qiehuan {
+    position: absolute;
+    top: 30px;
+    left: 70px
+}
+
+.zhongjian {
+    position: relative;
+    margin-left: 700px;
+    height: 80px;
+}
+
+.zj {
+    text-decoration: none;
+    font-size: 30px;
+    color: black
+}
+
+.zj:hover {
+    color: #ffdb3d;
+}
+
+.first {
+    position: absolute;
+    top: 20px;
+    left: 53px
+}
+
+.second {
+    position: absolute;
+    top: 20px;
+    left: 163px
+}
+
+.third {
+    position: absolute;
+    top: 20px;
+    left: 273px
+}
+
+.fourth {
+    position: absolute;
+    top: 20px;
+    left: 383px
+}
+
+.right {
+    height: 30px;
+    position: relative;
+    margin-left: 710px;
+}
+
+.rightimg {
+    position: absolute;
+    top: 35px;
+    right: 490px;
+    color: #FEA700;
+    left: -15px;
+}
+
+.righta {
+    position: absolute;
+    top: 30px;
+    right: 413px;
+    text-decoration: none;
+    color: #FEA700;
+}
+
+.body {
+    width: 200px;
+    margin-top: 20px;
+    height: 1000px;
+    background-color: #f0f0f0;
+    margin-left: 380px;
+}
+
+.changtiao {
+    height: 80px;
+    width: 8px;
+    background-color: #1ac0c0
+}
+
+a {
+    text-decoration: none
+}
+
+.bodyone {
+    position: relative;
+    height: 80px;
+    background-color: #ebebeb
+}
+
+.onea {
+    position: absolute;
+    top: 30px;
+    left: 38px;
+    font-weight: 600;
+    color: #19BEBE;
+    font-size: 20px
+}
+
+.bodytuo {
+    margin-left: 20px;
+    width: 160px;
+    height: 110px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.tuoa, .threea, .foura, .fivea, .sixa, .sevena {
+    margin-left: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: black;
+}
+
+.tuob, .threeb, .fourb, .fiveb, .sixb, .sevenb {
+    margin-left: 25px;
+    position: absolute;
+    top: 41px;
+    color: black;
+}
+
+.bodythree, .bodyfour {
+    height: 87px;
+    width: 160px;
+    margin-left: 20px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.bodyfive {
+    height: 160px;
+    width: 160px;
+    margin-left: 20px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.tuoc, .fivec, .fived, .fivee, .sixc, .sixd, .sevenc, .sevend {
+    margin-left: 25px;
+    position: absolute;
+    color: black;
+}
+
+.fivec, .sixc, .sevenc, .tuoc {
+    top: 72px;
+}
+
+.fived, .sixd, .sevend {
+    top: 103px;
+}
+
+.fivee {
+    top: 134px;
+}
+
+.bodysix, .bodyseven {
+    height: 140px;
+    width: 160px;
+    margin-left: 20px;
+    margin-top: 10px;
+    position: relative;
+}
+
+.bodybegin {
+    position: relative
+}
+
+.bodylast {
+    position: absolute;
+    width: 900px;
+    height: 1000px;
+    top: 0;
+    right: 410px;
+    background-color: #f0f0f0
+}
+
+.bodyright {
+    width: 900px;
+    height: 150px;
+    background-color: #ededed
+}
+
+.rightimg2 {
+    position: absolute;
+    left: 40px;
+    top: 15px
+}
+
+.righta1, .rightb, .rightc {
+    position: absolute;
+    left: 170px
+}
+
+.righta1 {
+    position: absolute;
+    top: 20px
+}
+
+.rightb {
+    position: absolute;
+    top: 67px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.rightc {
+    top: 97px;
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.righta1 {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.rightaaa {
+    position: absolute;
+    top: 30px;
+    right: 180px;
+    width: 300px;
+    height: 90px;
+}
+
+.rightd {
+    height: 90px;
+    border: 1px solid black;
+    display: inline-block
+}
+
+.righte {
+    position: absolute;
+    top: 25px;
+    left: 45px
+}
+
+.rightf {
+    position: absolute;
+    top: 21px;
+    left: 95px
+}
+
+.rightg {
+    position: absolute;
+    top: 48px;
+    left: 95px
+}
+
+.righth {
+    position: absolute;
+    top: 48px;
+    left: 155px;
+    color: #19BEBE
+}
+
+.righttuo {
+    position: absolute;
+    top: 30px;
+    right: -107px;
+    width: 300px;
+    height: 90px;
+}
+
+.righti {
+    position: absolute;
+    top: 25px;
+}
+
+.rightl {
+    position: absolute;
+    top: 21px;
+    left: 45px
+}
+
+.rightq {
+    position: absolute;
+    top: 48px;
+    left: 45px
+}
+
+.rights {
+    position: absolute;
+    top: 48px;
+    left: 95px;
+    color: #19BEBE
+}
+
+.n1 {
+    background-color: #515151;
+    height: 280px;
+    margin-top: 30px;
+}
+
+.n2 {
+    margin-left: 400px;
+    position: relative
+}
+
+.n3 {
+    position: absolute;
+    top: 20px
+}
+
+.n4 {
+    position: absolute;
+    top: 90px;
+    font-weight: 900;
+    color: white
+}
+
+.n5, .n6 {
+    color: #a4a5a5
+}
+
+.n5 {
+    position: absolute;
+    top: 130px
+}
+
+.n6 {
+    position: absolute;
+    top: 150px
+}
+
+.m2, .m3, .m4, .m5, .m6, .m7 {
+    border: none;
+    background-color: #515151;
+    color: white
+}
+
+.m1 {
+    position: relative;
+    margin-left: 400px
+}
+
+.m2 {
+    position: absolute;
+    left: 650px;
+    top: 60px
+}
+
+.m3 {
+    position: absolute;
+    left: 750px;
+    top: 60px
+}
+
+.m4 {
+    position: absolute;
+    left: 650px;
+    top: 100px
+}
+
+.m5 {
+    position: absolute;
+    left: 750px;
+    top: 100px
+}
+
+.m6 {
+    position: absolute;
+    left: 650px;
+    top: 140px
+}
+
+.m7 {
+    position: absolute;
+    left: 750px;
+    top: 140px
+}
+
+.s1 {
+    margin-left: 400px;
+    position: relative
+}
+
+.s2 {
+    position: absolute;
+    left: 1000px
+}
+
+.s3 {
+    position: absolute;
+    left: 1040px
+}
+
+.s4 {
+    position: absolute;
+    left: 1000px;
+    top: 38.5px
+}
+
+.s5 {
+    position: absolute;
+    left: 1040px;
+    top: 38.5px
+}
+
+.s6 {
+    position: absolute;
+    left: 1000px;
+    top: 77px
+}
+
+.s7 {
+    position: absolute;
+    left: 1040px;
+    top: 77px
+}
+
+.s3, .s5, .s7 {
+    border: none;
+    color: white;
+    background-color: #515151
+}
+
+.cc {
+    width: 1350px;
+    border: 1px solid white;
+    display: block;
+    position: absolute;
+    top: 160px;
+    left: -45px;
+}
+.top{position: absolute;top:180px;left: 0;color:white }
+.topb{position: absolute;top: 180px;left:280px;color: white}
+.topp{position: absolute;top: 180px;right:400px;color: white}
+
+
+

@@ -1,0 +1,595 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style>
+        *{margin: 0;padding: 0}
+        .pop {
+            width: 900px;
+            height: 1000px;
+            background-color: #ededed;
+            position: absolute;
+            top: 180px;
+            right: 410px;
+        }
+
+        .pop1 {
+            width: 300px;
+            height: 30px;
+            position: relative
+        }
+
+        .pop2 {
+            height: 30px;
+            border: 3px solid #38C4C4;
+            position: absolute;
+            left: 60px;
+            top: 20px;
+        }
+
+        .pop3 {
+            position: absolute;
+            top: 25px;
+            left: 80px
+        }
+
+        .pop4 {
+            width: 800px;
+            border: 1px dotted #666666;
+            display: block;
+            position: absolute;
+            top: 70px;
+            left: 37px;
+        }
+
+        .p63 {
+            position: relative;
+            width: 380px;
+            height: 60px;
+            background-color: #FFFFFF;
+            margin-left: 60px;
+            margin-top: 60px
+        }
+
+        .plm {
+            position: absolute;
+            left: 6px;
+            top: 6px
+        }
+
+        .p36 {
+            position: absolute;
+            left: 50px;
+            top: 10px
+        }
+
+        .qop {
+            position: absolute;
+            left: 50px;
+            top: 30px
+        }
+
+        .ab1 {
+            position: absolute;
+            right: 50px;
+            top: 15px;
+            background-color: #FEA700;
+            border: none;
+            height: 30px;
+            color: white;
+        }
+
+
+
+
+
+
+
+        .pol {
+            position: relative;
+            width: 380px;
+            height: 60px;
+            background-color: #FFFFFF;
+            margin-left: 60px;
+            margin-top: 60px
+        }
+
+        .polx {
+            position: absolute;
+            left: 6px;
+            top: 6px
+        }
+
+        .polc{
+            position: absolute;
+            left: 50px;
+            top: 10px
+        }
+
+        .polv {
+            position: absolute;
+            left: 50px;
+            top: 30px
+        }
+
+        .polb {
+            position: absolute;
+            right: 50px;
+            top: 15px;
+            background-color: #FEA700;
+            border: none;
+            height: 30px;
+            color: white;
+        }
+        .title {
+            width: 1920px;
+            background-color: #19BEBE;
+            text-align: center;
+            height: 80px
+        }
+
+        .titleimg {
+            position: absolute;
+            top: 20px
+        }
+
+        .nag {
+            height: 80px;
+            background-color: #efefef
+        }
+
+        .nagtuo {
+            margin-left: 400px;
+            position: relative
+        }
+
+        .nagimg {
+            position: absolute;
+            top: 30px
+        }
+
+        .shenzhen {
+            position: absolute;
+            top: 30px;
+            left: 30px
+        }
+
+        .qiehuan {
+            position: absolute;
+            top: 30px;
+            left: 70px
+        }
+
+        .zhongjian {
+            position: relative;
+            margin-left: 700px;
+            height: 80px;
+        }
+
+        .zj {
+            text-decoration: none;
+            font-size: 30px;
+            color: black
+        }
+
+        .zj:hover {
+            color: #ffdb3d;
+        }
+
+        .first {
+            position: absolute;
+            top: 20px;
+            left: 53px
+        }
+
+        .second {
+            position: absolute;
+            top: 20px;
+            left: 163px
+        }
+
+        .third {
+            position: absolute;
+            top: 20px;
+            left: 273px
+        }
+
+        .fourth {
+            position: absolute;
+            top: 20px;
+            left: 383px
+        }
+
+        .right {
+            height: 30px;
+            position: relative;
+            margin-left: 710px;
+        }
+
+        .rightimg {
+            position: absolute;
+            top: 35px;
+            right: 490px;
+            color: #FEA700;
+            left: -15px;
+        }
+
+        .righta {
+            position: absolute;
+            top: 30px;
+            right: 413px;
+            text-decoration: none;
+            color: #FEA700;
+        }
+
+        .body {
+            width: 200px;
+            margin-top: 20px;
+            height: 1000px;
+            background-color: #f0f0f0;
+            margin-left: 380px;
+        }
+
+        .changtiao {
+            height: 80px;
+            width: 8px;
+            background-color: #1ac0c0
+        }
+
+        a {
+            text-decoration: none
+        }
+
+        .bodyone {
+            position: relative;
+            height: 80px;
+            background-color: #ebebeb
+        }
+
+        .onea {
+            position: absolute;
+            top: 30px;
+            left: 38px;
+            font-weight: 600;
+            color: #19BEBE;
+            font-size: 20px
+        }
+
+        .bodytuo {
+            margin-left: 20px;
+            width: 160px;
+            height: 110px;
+            margin-top: 10px;
+            position: relative;
+        }
+
+        .tuoa, .threea, .foura, .fivea, .sixa, .sevena {
+            margin-left: 10px;
+            font-weight: 600;
+            font-size: 20px;
+            color: black;
+        }
+
+        .tuob, .threeb, .fourb, .fiveb, .sixb, .sevenb {
+            margin-left: 25px;
+            position: absolute;
+            top: 41px;
+            color: black;
+        }
+
+        .bodythree, .bodyfour {
+            height: 87px;
+            width: 160px;
+            margin-left: 20px;
+            margin-top: 10px;
+            position: relative;
+        }
+
+        .bodyfive {
+            height: 160px;
+            width: 160px;
+            margin-left: 20px;
+            margin-top: 10px;
+            position: relative;
+        }
+
+        .tuoc, .fivec, .fived, .fivee, .sixc, .sixd, .sevenc, .sevend {
+            margin-left: 25px;
+            position: absolute;
+            color: black;
+        }
+
+        .fivec, .sixc, .sevenc, .tuoc {
+            top: 72px;
+        }
+
+        .fived, .sixd, .sevend {
+            top: 103px;
+        }
+
+        .fivee {
+            top: 134px;
+        }
+
+        .bodysix, .bodyseven {
+            height: 140px;
+            width: 160px;
+            margin-left: 20px;
+            margin-top: 10px;
+            position: relative;
+        }
+        .n1 {
+            background-color: #515151;
+            height: 280px;
+            margin-top: 30px;
+        }
+
+        .n2 {
+            margin-left: 400px;
+            position: relative
+        }
+
+        .n3 {
+            position: absolute;
+            top: 20px
+        }
+
+        .n4 {
+            position: absolute;
+            top: 90px;
+            font-weight: 900;
+            color: white
+        }
+
+        .n5, .n6 {
+            color: #a4a5a5
+        }
+
+        .n5 {
+            position: absolute;
+            top: 130px
+        }
+
+        .n6 {
+            position: absolute;
+            top: 150px
+        }
+
+        .m2, .m3, .m4, .m5, .m6, .m7 {
+            border: none;
+            background-color: #515151;
+            color: white
+        }
+
+        .m1 {
+            position: relative;
+            margin-left: 400px
+        }
+
+        .m2 {
+            position: absolute;
+            left: 650px;
+            top: 60px
+        }
+
+        .m3 {
+            position: absolute;
+            left: 750px;
+            top: 60px
+        }
+
+        .m4 {
+            position: absolute;
+            left: 650px;
+            top: 100px
+        }
+
+        .m5 {
+            position: absolute;
+            left: 750px;
+            top: 100px
+        }
+
+        .m6 {
+            position: absolute;
+            left: 650px;
+            top: 140px
+        }
+
+        .m7 {
+            position: absolute;
+            left: 750px;
+            top: 140px
+        }
+
+        .s1 {
+            margin-left: 400px;
+            position: relative
+        }
+
+        .s2 {
+            position: absolute;
+            left: 1000px
+        }
+
+        .s3 {
+            position: absolute;
+            left: 1040px
+        }
+
+        .s4 {
+            position: absolute;
+            left: 1000px;
+            top: 38.5px
+        }
+
+        .s5 {
+            position: absolute;
+            left: 1040px;
+            top: 38.5px
+        }
+
+        .s6 {
+            position: absolute;
+            left: 1000px;
+            top: 77px
+        }
+
+        .s7 {
+            position: absolute;
+            left: 1040px;
+            top: 77px
+        }
+
+        .s3, .s5, .s7 {
+            border: none;
+            color: white;
+            background-color: #515151
+        }
+
+        .cc {
+            width: 1350px;
+            border: 1px solid white;
+            display: block;
+            position: absolute;
+            top: 160px;
+            left: -45px;
+        }
+        .top{position: absolute;top:180px;left: 0;color:white }
+        .topb{position: absolute;top: 180px;left:280px;color: white}
+        .topp{position: absolute;top: 180px;right:400px;color: white}
+
+    </style>
+</head>
+<body>
+<div class="title">
+<img class="titleimg" src="images/logo.png" alt=""/>
+</div>
+<div class="nag">
+    <div class="nagtuo">
+        <img class="nagimg" src="images/location.png" alt=""/>
+        <span class="shenzhen">深圳</span>
+        <span class="qiehuan">&lt;切换 &gt;</span>
+    </div>
+    <div class="zhongjian">
+        <a class="zj first" href="#">首页</a>
+        <a class="zj second" href="#">资讯</a>
+        <a class="zj third" href="#">测评</a>
+        <a class="zj fourth" href="#">商城</a>
+
+        <div class="right">
+            <img class="rightimg" src="images/adm.png" alt=""/>
+            <a class="righta" href="#">个人中心</a>
+        </div>
+    </div>
+</div>
+<div class="bodybegin">
+    <div class="body">
+        <div class="bodyone">
+            <p class="changtiao"></p>
+            <a class="onea" href="#">用户中心首页</a><br/>
+        </div>
+        <div class="bodytuo">
+            <img class="tuoimg" src="images/open.png" alt=""/>
+            <a class="tuoa" href="#">我的检测</a><br/>
+            <a class="tuob" href="#">上门检测</a><br/>
+            <a class="tuoc" href="#">DIY检测</a><br/>
+        </div>
+        <div class="bodythree">
+            <img class="threeimg" src="images/open.png" alt=""/>
+            <a class="threea" href="#">我的治理</a><br/>
+            <a class="threeb" href="#">上门治理</a><br/>
+        </div>
+        <div class="bodyfour">
+            <img class="fourimg" src="images/open.png" alt=""/>
+            <a class="foura" href="#">我的装修</a><br/>
+            <a class="fourb" href="#">装修方案</a><br/>
+        </div>
+        <div class="bodyfive">
+            <img class="fiveimg" src="images/open.png" alt=""/>
+            <a class="fivea" href="#">我的收藏</a><br/>
+            <a class="fiveb" href="#">装修材料</a><br/>
+            <a class="fivec" href="#">净化产品</a><br/>
+            <a class="fived" href="#">资讯</a><br/>
+            <a class="fivee" href="#">测评</a><br/>
+        </div>
+        <div class="bodysix">
+            <img class="siximg" src="images/open.png" alt=""/>
+            <a class="sixa" href="#">个人资料</a><br/>
+            <a class="sixb" href="#">个人资料</a><br/>
+            <a class="sixc" href="#">修改密码</a><br/>
+            <a class="sixd" href="01.html">绑定手机/微信</a><br/>
+        </div>
+        <div class="bodyseven">
+            <img class="siximg" src="images/open.png" alt=""/>
+            <a class="sevena" href="#">积分管理</a><br/>
+            <a class="sevenb" href="#">积分兑换</a><br/>
+            <a class="sevenc" href="#">积分等级</a><br/>
+            <a class="sevend" href="#">积分任务</a><br/>
+        </div>
+<div class="pop">
+    <div class="pop1">
+        <span class="pop2"></span>
+        <span class="pop3">修改密码</span><br/>
+        <span class="pop4"></span>
+    </div>
+    <div class="p63">
+        <img class="plm" src="images/phone2.png" alt=""/>
+
+        <p class="p36">手机号绑定</p>
+
+        <p class="qop">您还未绑定手机号</p>
+        <button class="ab1">立即绑定</button>
+    </div>
+
+
+
+
+    <div class="pol">
+        <img class="polx" src="images/weixin3.png" alt=""/>
+
+        <p class="polc">手机号绑定</p>
+
+        <p class="polv">您还未绑定手机号</p>
+        <button class="polb">立即绑定</button>
+    </div>
+</div>
+    </div>
+</div>
+<div class="n1">
+    <div class="n2">
+        <img class="n3" src="images/footerLogo.png" alt=""/>
+        <p class="n4">为室内环境健康把好每一关</p>
+        <p class="n5">家居医生致力于中国人的家居健康问题，通过专业的技术研究</p>
+        <p class="n6">和测评，倾力协助大众打造绿色，环保的人居生活环境。</p>
+    </div>
+    <div class="m1">
+        <button class="m2">关于我们</button>
+        <button class="m3">版权说明</button>
+        <br/>
+        <button class="m4">服务我们</button>
+        <button class="m5">用户隐私</button>
+        <br/>
+        <button class="m6">加入我们</button>
+        <button class="m7">免费申明</button>
+        <br/>
+    </div>
+    <div class="s1">
+        <img class="s2" src="images/weixin2.png" alt=""/>
+        <button class="s3">官方微信</button>
+        <br/>
+        <img class="s4" src="images/tianmao.png" alt=""/>
+        <button class="s5">天猫旗舰店</button>
+        <br/>
+        <img class="s6" src="images/shop.png" alt=""/>
+        <button class="s7">有赞商城</button>
+        <span class="cc"></span><br/>
+        <span class="top">深圳建筑科学研究院股份有限公司</span>
+        <span class="topb">家居医生网</span>
+        <span class="topp">粤ICP备08011321号</span>
+    </div>
+</div>
+</div>
+</body>
+</html>
